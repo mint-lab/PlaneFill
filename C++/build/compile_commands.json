@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/mint/Desktop/test_zed/build",
+  "command": "/usr/bin/g++  -D_DEBUG -I/usr/local/cuda/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4  -g   -std=gnu++14 -o CMakeFiles/test_zed.dir/main.cpp.o -c /home/mint/Desktop/test_zed/main.cpp",
+  "file": "/home/mint/Desktop/test_zed/main.cpp"
+}
+]

@@ -1,0 +1,5 @@
+/home/mint/Desktop/test_zed/build/CMakeFiles/edit_cache.dir
+/home/mint/Desktop/test_zed/build/CMakeFiles/package_source.dir
+/home/mint/Desktop/test_zed/build/CMakeFiles/rebuild_cache.dir
+/home/mint/Desktop/test_zed/build/CMakeFiles/package.dir
+/home/mint/Desktop/test_zed/build/CMakeFiles/test_zed.dir
