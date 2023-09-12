@@ -6,12 +6,8 @@ We inspired by [this page](https://stackoverflow.com/questions/34644101/calculat
 
 # Algorithm
 
-First, compute $\partial D/\partial u$ and $\partial D/\partial v$ from depth images. In depth image, $u$ and $v$ axes are orthogonal to each other. Thus, we can simply calculate normal vector from $\partial D/\partial u$ and $\partial D/\partial v$
-$$ \mathbf{n}(u,v) =
-    \begin{bmatrix} 1 \\ 0 \\ \frac{\partial D}{\partial u} \end{bmatrix} \times \begin{bmatrix} 0 \\ 1 \\ \frac{\partial D}{\partial v} \end{bmatrix} =
-    \begin{bmatrix}
-        -\frac{\partial D}{\partial u} \\ -\frac{\partial D}{\partial v} \\ 1
-    \end{bmatrix} $$
+First, compute $\partial D/\partial u$ and $\partial D/\partial v$ from depth images. In depth image, $u$ and $v$ axes are orthogonal to each other. Thus, we can simply calculate normal vector from $\partial D/\partial u$ and $\partial D/\partial v$  
+$$\mathbf{n}(u,v) =\begin{bmatrix} 1 \\ 0 \\ \frac{\partial D}{\partial u} \end{bmatrix} \times \begin{bmatrix} 0 \\ 1 \\ \frac{\partial D}{\partial v} \end{bmatrix} =\begin{bmatrix}-\frac{\partial D}{\partial u} \\ -\frac{\partial D}{\partial v} \\ 1\end{bmatrix} $$
 
 Then we can get these results.
 | Depth Image             |  Normal Map |
