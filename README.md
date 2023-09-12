@@ -32,7 +32,7 @@ Then, we can acquire filtered-normal map
 Then we can get these results.
 | Common Approach ($\alpha = 1$)         |  Proposed Approach |
 :-------------------------:|:-------------------------:
-![common](images/alpha-1.jpg)  |  ![proposed](images/alpha-normd.jpg)
+![common](images/alpha-1.png)  |  ![proposed](images/alpha-normd.png)
 
 Next, we proceeded with plane labeling using the previously obtained normal map. For labeling, we utilized the flood-fill algorithm from OpenCV to perform pixel growing on the plane.  
 While using flood-fill, we found that the pixel growing method occasionally results in the merging of different planes. Therefore, we employed a method that utilizes not only the comparison with surrounding pixel values but also incorporates the absolute difference values from the seed point.   
