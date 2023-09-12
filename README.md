@@ -16,7 +16,7 @@ $$ \mathbf{n}(u,v) =
 Then we can get these results.
 | Depth Image             |  Normal Map |
 :-------------------------:|:-------------------------:
-![](../depth.png)  |  ![](../normal.png)
+![depth](images/depth.png)  |  ![normal](images/normal.png)
 
 But, we can't find plane from this normal map due to normal vectors appear in different values depending on the depth even though they are on the same plane.
 This is because we calculate normal vector on the normalized camera coordinate. Thus, these vectors do not reflect the actual characteristics of the plane and instead represent distorted values.  
@@ -32,7 +32,7 @@ Then, we can acquire filtered-normal map
 Then we can get these results.
 | Common Approach ($\alpha = 1$)         |  Proposed Approach |
 :-------------------------:|:-------------------------:
-![](../M220_z=1.jpg)  |  ![](../M220_z=normd.jpg)
+![common](images/alpha=1.jpg)  |  ![proposed](images/alpha=normd.jpg)
 
 Next, we proceeded with plane labeling using the previously obtained normal map. For labeling, we utilized the flood-fill algorithm from OpenCV to perform pixel growing on the plane.  
 While using flood-fill, we found that the pixel growing method occasionally results in the merging of different planes. Therefore, we employed a method that utilizes not only the comparison with surrounding pixel values but also incorporates the absolute difference values from the seed point.   
