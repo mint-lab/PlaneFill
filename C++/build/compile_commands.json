@@ -1,7 +1,27 @@
 [
 {
-  "directory": "/home/mint/Desktop/test_zed/build",
-  "command": "/usr/bin/g++  -D_DEBUG -I/usr/local/cuda/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4  -g   -std=gnu++14 -o CMakeFiles/test_zed.dir/main.cpp.o -c /home/mint/Desktop/test_zed/main.cpp",
-  "file": "/home/mint/Desktop/test_zed/main.cpp"
+  "directory": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/build",
+  "command": "/usr/bin/g++ -I/home/hyunkil/Downloads/tmp/PlaneFill/C++/cnpy -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/plane_fill.dir/main.cpp.o -c /home/hyunkil/Downloads/tmp/PlaneFill/C++/main.cpp",
+  "file": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/main.cpp"
+},
+{
+  "directory": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/build",
+  "command": "/usr/bin/g++ -I/home/hyunkil/Downloads/tmp/PlaneFill/C++/cnpy -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/plane_fill.dir/plane_fill.cpp.o -c /home/hyunkil/Downloads/tmp/PlaneFill/C++/plane_fill.cpp",
+  "file": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/plane_fill.cpp"
+},
+{
+  "directory": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/build",
+  "command": "/usr/bin/g++ -Dcnpy_EXPORTS  -std=c++11 -g -fPIC -std=gnu++17 -o cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o -c /home/hyunkil/Downloads/tmp/PlaneFill/C++/cnpy/cnpy.cpp",
+  "file": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/cnpy/cnpy.cpp"
+},
+{
+  "directory": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/build",
+  "command": "/usr/bin/g++  -std=c++11 -g -std=gnu++17 -o cnpy/CMakeFiles/cnpy-static.dir/cnpy.cpp.o -c /home/hyunkil/Downloads/tmp/PlaneFill/C++/cnpy/cnpy.cpp",
+  "file": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/cnpy/cnpy.cpp"
+},
+{
+  "directory": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/build",
+  "command": "/usr/bin/g++  -std=c++11 -g -std=gnu++17 -o cnpy/CMakeFiles/example1.dir/example1.cpp.o -c /home/hyunkil/Downloads/tmp/PlaneFill/C++/cnpy/example1.cpp",
+  "file": "/home/hyunkil/Downloads/tmp/PlaneFill/C++/cnpy/example1.cpp"
 }
 ]

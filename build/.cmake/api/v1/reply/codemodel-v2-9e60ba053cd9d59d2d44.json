@@ -1,0 +1,122 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "cnpy",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-cnpy-Debug-93b6d75dbac9d5f69679.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cnpy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "plane_fill",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "CNPY",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "cnpy::@72625740c416e9d1dfcf",
+					"jsonFile" : "target-cnpy-Debug-a04067c192e44bffd545.json",
+					"name" : "cnpy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cnpy-static::@72625740c416e9d1dfcf",
+					"jsonFile" : "target-cnpy-static-Debug-263719609939ef48d77c.json",
+					"name" : "cnpy-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example1::@72625740c416e9d1dfcf",
+					"jsonFile" : "target-example1-Debug-1bf8ea1195e563a02577.json",
+					"name" : "example1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plane_fill::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plane_fill-Debug-d242498488a96874e98b.json",
+					"name" : "plane_fill",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hyunkil/Downloads/tmp/PlaneFill/build",
+		"source" : "/home/hyunkil/Downloads/tmp/PlaneFill/C++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
