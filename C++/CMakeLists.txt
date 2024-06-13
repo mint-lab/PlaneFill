@@ -14,6 +14,6 @@ include_directories(${CMAKE_SOURCE_DIR}/cnpy)
 
 link_directories(${OpenCV_LIBRARY_DIRS})
 
-ADD_EXECUTABLE(${PROJECT_NAME} main.cpp plane_fill.cpp)
+ADD_EXECUTABLE(${PROJECT_NAME} main.cpp plane_fill.cpp utils.cpp)
 
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${OpenCV_LIBRARIES} cnpy)
